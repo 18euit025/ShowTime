@@ -321,7 +321,7 @@ public class updateprofile implements ActionListener {
             {
             	Class.forName("com.mysql.cj.jdbc.Driver");  
 				Connection con=DriverManager.getConnection(  
-				"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");  
+				"jdbc:mysql://127.0.0.1:3306/bookmymovie","###","####");  
 				
 			Statement statement=con.createStatement();
                         ResultSet resultset=statement.executeQuery("select * from registration");

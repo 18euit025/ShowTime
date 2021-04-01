@@ -20,7 +20,7 @@ public class BookingHistory {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");
+			"jdbc:mysql://127.0.0.1:3306/bookmymovie","####","####");
 			Statement st=con.createStatement();
 		
 			
@@ -45,7 +45,7 @@ public class BookingHistory {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			Connection con=DriverManager.getConnection(  
-			"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");
+			"jdbc:mysql://127.0.0.1:3306/bookmymovie","####","####");
 			Statement st=con.createStatement();	
 	
 			ResultSet rs=st.executeQuery( "select movie,showdate,showtime,seat from user where emailID='"+email+"'");

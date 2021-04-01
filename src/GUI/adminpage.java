@@ -426,7 +426,7 @@ public class adminpage implements ActionListener
             Connection connection=null;
             try
             {
-                connection=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bookmymovie", "root", "haritn38ap5586");
+                connection=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bookmymovie", "#", "####");
             }
             catch(Exception e)
             {

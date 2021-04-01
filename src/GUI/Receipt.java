@@ -189,7 +189,7 @@ public class Receipt implements ActionListener {
 				try{
 					Class.forName("com.mysql.cj.jdbc.Driver");  
 					Connection con=DriverManager.getConnection(  
-					"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");  
+					"jdbc:mysql://127.0.0.1:3306/bookmymovie","###","####");  
 					Statement st=con.createStatement();
 					discountAmount=null;
 					grantTotal=0;
@@ -254,7 +254,7 @@ public class Receipt implements ActionListener {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			Connection con=DriverManager.getConnection(  
-			"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");  
+			"jdbc:mysql://127.0.0.1:3306/bookmymovie","###","####");  
 			Statement st=con.createStatement();
 			
 			st.executeUpdate("insert into user values('"+LoginPage.emailID+"','"+login.username+"','"+MovieNameText.getText()+"',"

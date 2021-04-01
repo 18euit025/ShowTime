@@ -14,7 +14,7 @@ public class updation
             {		
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");
+			"jdbc:mysql://127.0.0.1:3306/bookmymovie","####","####");
 			Statement st=con.createStatement();	
 	
 			st.executeUpdate("update registration set FirstName='"+s1+"',LastName='"+s2+"',Password='"+s3+"',ConPassword='"+s4+"' where email='"+s5+"'");
@@ -37,7 +37,7 @@ public class updation
             {		
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection(
-			"jdbc:mysql://127.0.0.1:3306/bookmymovie","root","haritn38ap5586");
+			"jdbc:mysql://127.0.0.1:3306/bookmymovie","####","####");
 			Statement st=con.createStatement();	
 	
 			st.executeUpdate("update registration set FirstName='"+s1+"',LastName='"+s2+"' where email='"+s3+"'");
